@@ -4,9 +4,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- * Created by rajeevkumarsingh on 21/11/17.
- */
+
 @Entity
 @Table(name = "posts")
 public class Post extends AuditModel {
